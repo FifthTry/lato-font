@@ -1,1 +1,44 @@
--- ds.page: hello
+-- import: fifthtry.github.io/package-doc/doc as pd
+-- import: fpm
+
+
+-- boolean is-mobile: false
+
+-- is-mobile: true
+if: $ftd.device == mobile
+
+-- ftd.column:
+width: fill
+padding-horizontal: 50
+padding-horizontal if $is-mobile: 20
+background-color: $fpm.color.main.background.base
+height: fill
+
+
+-- pd.package: Lato - fpm font
+name: fifthtry.github.io/lato
+
+This component consist of Google Roboto font with all it's styles from Thin-100 to Bold-700 Italic.
+
+
+-- pd.component: Lato - fpm font
+name: https://github.com/FifthTry/lato
+
+This component consist of Google Lato font with all it's styles from Thin-100 to Bold-700 Italic.
+
+
+
+-- pd.hidden-code: How to use
+
+include fifthtry.github.io/lato package into FPM.ftd file
+
+\-- fpm.dependency: fifthtry.github.io/lato
+
+\-- fpm.auto-import: fifthtry.github.io/lato
+
+Inside your .ftd file to change for any specific token use:
+
+\-- fpm.type.headline-small.font: $inter.fonts.lato
+
+\-- ftd.text:
+role: $fpm.type.headline-small
