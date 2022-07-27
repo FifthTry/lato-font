@@ -5,6 +5,7 @@ zip: github.com/fifthtry/lato/archive/refs/heads/main.zip
 base: https://raw.githubusercontent.com/fifthtry/lato/main
 
 
+
 -- fpm.dependency: fifthtry.github.io/package-doc
 
 -- fpm.font: Lato
