@@ -1,8 +1,8 @@
 -- import: fpm
 
--- fpm.package: fifthtry.github.io/lato
-zip: github.com/fifthtry/lato/archive/refs/heads/main.zip
-base: https://raw.githubusercontent.com/fifthtry/lato/main
+-- fpm.package: fifthtry.github.io/lato-font
+zip: github.com/fifthtry/lato-font/archive/refs/heads/main.zip
+base: https://raw.githubusercontent.com/fifthtry/lato-font/main
 
 
 
