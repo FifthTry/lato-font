@@ -1,6 +1,6 @@
 # Lato Font
 
-[`fifthtry.github.io/lato`](https://fifthtry.github.io/lato) is a wrapper over [Lato font](https://github.com/latofonts/lato-source).
+[`fifthtry.github.io/lato`](https://fifthtry.github.io/lato-font) is a wrapper over [Lato font](https://github.com/latofonts/lato-source).
 
 
 [How to Use fonts](https://fpm.dev/how-to/how-to-use-fonts/).

@@ -16,13 +16,13 @@ height: fill
 
 
 -- pd.package: Lato - fpm font
-name: fifthtry.github.io/lato
+name: fifthtry.github.io/lato-font
 
 This component consist of Google Roboto font with all it's styles from Thin-100 to Bold-700 Italic.
 
 
 -- pd.component: Lato - fpm font
-name: https://github.com/FifthTry/lato
+name: https://github.com/FifthTry/lato-font
 
 This component consist of Google Lato font with all it's styles from Thin-100 to Bold-700 Italic.
 
@@ -30,15 +30,15 @@ This component consist of Google Lato font with all it's styles from Thin-100 to
 
 -- pd.hidden-code: How to use
 
-include fifthtry.github.io/lato package into FPM.ftd file
+include fifthtry.github.io/lato-font package into FPM.ftd file
 
-\-- fpm.dependency: fifthtry.github.io/lato
+\-- fpm.dependency: fifthtry.github.io/lato-font
 
-\-- fpm.auto-import: fifthtry.github.io/lato
+\-- fpm.auto-import: fifthtry.github.io/lato-font
 
 Inside your .ftd file to change for any specific token use:
 
-\-- fpm.type.headline-small.font: $inter.fonts.lato
+\-- fpm.type.headline-small.font: $lato-font.fonts.lato
 
 \-- ftd.text:
 role: $fpm.type.headline-small
