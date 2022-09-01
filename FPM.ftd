@@ -2,7 +2,7 @@
 
 -- fpm.package: fifthtry.github.io/lato-font
 zip: github.com/fifthtry/lato-font/archive/refs/heads/main.zip
-base: https://raw.githubusercontent.com/fifthtry/lato-font/main
+download-base-url: https://raw.githubusercontent.com/fifthtry/lato-font/main
 
 
 
