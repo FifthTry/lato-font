@@ -4,43 +4,37 @@
 -- import: fpm
 
 
--- boolean is-mobile: false
 
--- is-mobile: true
-if: $ftd.device == mobile
+-- ftd.type lato-demo:
+line-height.px: 36
+size.px: 22
+letter-spacing.px: 0
+weight: 400
+font-family: $lato-assets.fonts.Lato
 
 
+-- ftd.type lato-demo-heading:
+line-height.px: 56
+size.px: 48
+letter-spacing.px: 0
+font-family: $lato-assets.fonts.Lato
+weight: 400
 
--- ftd.font-size lato-demo:
-line-height: 36
-size: 22
-letter-spacing: 0
-
--- ftd.font-size lato-demo-heading:
-line-height: 56
-size: 48
-letter-spacing: 0
-
--- ftd.type lato-font: $lato-assets.fonts.Lato
+-- ftd.responsive-type small-heading:
 desktop: $lato-demo
 mobile: $lato-demo
-xl: $lato-demo
-weight: 400
 
--- ftd.type lato-font-heading: $lato-assets.fonts.Lato
+-- ftd.responsive-type large-heading:
 desktop: $lato-demo-heading
 mobile: $lato-demo-heading
-xl: $lato-demo-heading
-weight: 400
 
 
 
 -- ftd.column:
-width: fill
-padding-horizontal: 50
-padding-horizontal if $is-mobile: 20
-background-color: $fpm.color.main.background.base
-id: parent
+width: fill-container
+padding-horizontal.px: 50
+padding-horizontal.px if {ftd.device == "mobile"}: 20
+background.solid: $inherited.colors.background.base
 
 
 -- pd.package: Lato - fpm font
@@ -71,109 +65,109 @@ Inside your .ftd file to change for any specific token use:
 \-- ftd.text:
 role: $fpm.type.headline-small
 
--- container: parent
-
 
 -- tf.h2: `lato-font` hairline 18px:
 
 -- ftd.text: MANIMBANG manowo ngakoni marang martabat alamiah sarta kang.    
-role: $lato-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: hairline
+role: $small-heading
+color: $inherited.colors.text-strong
+margin-bottom.px: 24
+;;style: hairline
 
 -- tf.h2: `lato-font` hairline italic 18px:
 
 -- ftd.text: MANIMBANG manowo ngakoni marang martabat alamiah sarta kang.    
-role: $lato-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: hairline italic
+role: $small-heading
+color: $inherited.colors.text-strong
+margin-bottom.px: 24
+;;style: hairline italic
 
 -- tf.h2: `lato-font` light 18px:
 
 -- ftd.text: MANIMBANG manowo ngakoni marang martabat alamiah sarta kang.    
-role: $lato-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: light
+role: $small-heading
+color: $inherited.colors.text-strong
+margin-bottom.px: 24
+;;style: light
 
 -- tf.h2: `lato-font` light italic 18px:
 
 -- ftd.text: MANIMBANG manowo ngakoni marang martabat alamiah sarta kang.    
-role: $lato-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: light italic
+role: $small-heading
+color: $inherited.colors.text-strong
+margin-bottom.px: 24
+;;style: light italic
 
 -- tf.h2: `lato-font` regular 18px:
 
 -- ftd.text: MANIMBANG manowo ngakoni marang martabat alamiah sarta kang.    
-role: $lato-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: regular
+role: $small-heading
+color: $inherited.colors.text-strong
+margin-bottom.px: 24
+;;style: regular
 
 -- tf.h2: `lato-font` regular strike through 18px:
 
 -- ftd.text: MANIMBANG manowo ngakoni marang martabat alamiah sarta kang.  
-role: $lato-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: regular strike
+role: $small-heading
+color: $inherited.colors.text-strong
+margin-bottom.px: 24
+;;style: regular strike
 
 -- tf.h2: `lato-font` regular underline 18px:
 
 -- ftd.text: MANIMBANG manowo ngakoni marang martabat alamiah sarta kang.  
-role: $lato-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: regular underline
+role: $small-heading
+color: $inherited.colors.text-strong
+margin-bottom.px: 24
+;;style: regular underline
 
 -- tf.h2: `lato-font` regular italic 18px:
 
 -- ftd.text: MANIMBANG manowo ngakoni marang martabat alamiah sarta kang.  
-role: $lato-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: regular italic
+role: $small-heading
+color: $inherited.colors.text-strong
+margin-bottom.px: 24
+;;style: regular italic
 
 -- tf.h2: `lato-font` bold 18px:
 
 -- ftd.text: MANIMBANG manowo ngakoni marang martabat alamiah sarta kang.  
-role: $lato-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: bold
+role: $small-heading
+color: $inherited.colors.text-strong
+margin-bottom.px: 24
+;;style: bold
 
 -- tf.h2: `lato-font` bold italic 18px:
 
 -- ftd.text: MANIMBANG manowo ngakoni marang martabat alamiah sarta kang.  
-role: $lato-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: bold italic
+role: $small-heading
+color: $inherited.colors.text-strong
+margin-bottom.px: 24
+;;style: bold italic
 
 -- tf.h2: `lato-font` heavy 18px:
 
 -- ftd.text: MANIMBANG manowo ngakoni marang martabat alamiah sarta kang.  
-role: $lato-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: heavy
+role: $small-heading
+color: $inherited.colors.text-strong
+margin-bottom.px: 24
+;;style: heavy
 
 -- tf.h2: `lato-font` heavy italic 18px:
 
 -- ftd.text: MANIMBANG manowo ngakoni marang martabat alamiah sarta kang.  
-role: $lato-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: heavy italic
+role: $small-heading
+color: $inherited.colors.text-strong
+margin-bottom.px: 24
+;;style: heavy italic
 
 -- tf.h2: `lato-font` heading regular 48px:
 
 -- ftd.text: MANIMBANG manowo ngakoni marang martabat alamiah sarta kang.  
-role: $lato-font-heading
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-10
-style: regular
+role: $large-heading
+color: $inherited.colors.text-strong
+margin-bottom.px: 40
+;;style: regular
+
+-- end: ftd.column
