@@ -1,14 +1,14 @@
--- import: fpm
+-- import: fastn
 
--- fpm.package: fifthtry.github.io/lato-font
+-- fastn.package: fifthtry.github.io/lato-font
 zip: github.com/fifthtry/lato-font/archive/refs/heads/main.zip
 download-base-url: https://raw.githubusercontent.com/fifthtry/lato-font/main
 
 
 
--- fpm.dependency: fifthtry.github.io/package-doc
+-- fastn.dependency: fifthtry.github.io/package-doc
 
--- fpm.font: Lato
+-- fastn.font: Lato
 style: italic
 weight: 100
 woff2: -/fifthtry.github.io/lato-font/static/Lato-100-italic-latin-ext.woff2
@@ -17,7 +17,7 @@ unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20C
 
 
 
--- fpm.font: Lato
+-- fastn.font: Lato
 style: italic
 weight: 100
 woff2: -/fifthtry.github.io/lato-font/static/Lato-100-italic-latin.woff2
@@ -26,7 +26,7 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 
 
--- fpm.font: Lato
+-- fastn.font: Lato
 style: italic
 weight: 300
 woff2: -/fifthtry.github.io/lato-font/static/Lato-300-italic-latin-ext.woff2
@@ -35,7 +35,7 @@ unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20C
 
 
 
--- fpm.font: Lato
+-- fastn.font: Lato
 style: italic
 weight: 300
 woff2: -/fifthtry.github.io/lato-font/static/Lato-300-italic-latin.woff2
@@ -44,7 +44,7 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 
 
--- fpm.font: Lato
+-- fastn.font: Lato
 style: italic
 weight: 400
 woff2: -/fifthtry.github.io/lato-font/static/Lato-400-italic-latin-ext.woff2
@@ -53,7 +53,7 @@ unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20C
 
 
 
--- fpm.font: Lato
+-- fastn.font: Lato
 style: italic
 weight: 400
 woff2: -/fifthtry.github.io/lato-font/static/Lato-400-italic-latin.woff2
@@ -62,7 +62,7 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 
 
--- fpm.font: Lato
+-- fastn.font: Lato
 style: italic
 weight: 700
 woff2: -/fifthtry.github.io/lato-font/static/Lato-700-italic-latin-ext.woff2
@@ -71,7 +71,7 @@ unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20C
 
 
 
--- fpm.font: Lato
+-- fastn.font: Lato
 style: italic
 weight: 700
 woff2: -/fifthtry.github.io/lato-font/static/Lato-700-italic-latin.woff2
@@ -80,7 +80,7 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 
 
--- fpm.font: Lato
+-- fastn.font: Lato
 style: italic
 weight: 900
 woff2: -/fifthtry.github.io/lato-font/static/Lato-900-italic-latin-ext.woff2
@@ -89,7 +89,7 @@ unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20C
 
 
 
--- fpm.font: Lato
+-- fastn.font: Lato
 style: italic
 weight: 900
 woff2: -/fifthtry.github.io/lato-font/static/Lato-900-italic-latin.woff2
@@ -98,7 +98,7 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 
 
--- fpm.font: Lato
+-- fastn.font: Lato
 style: normal
 weight: 100
 woff2: -/fifthtry.github.io/lato-font/static/Lato-100-normal-latin-ext.woff2
@@ -107,7 +107,7 @@ unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20C
 
 
 
--- fpm.font: Lato
+-- fastn.font: Lato
 style: normal
 weight: 100
 woff2: -/fifthtry.github.io/lato-font/static/Lato-100-normal-latin.woff2
@@ -116,7 +116,7 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 
 
--- fpm.font: Lato
+-- fastn.font: Lato
 style: normal
 weight: 300
 woff2: -/fifthtry.github.io/lato-font/static/Lato-300-normal-latin-ext.woff2
@@ -125,7 +125,7 @@ unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20C
 
 
 
--- fpm.font: Lato
+-- fastn.font: Lato
 style: normal
 weight: 300
 woff2: -/fifthtry.github.io/lato-font/static/Lato-300-normal-latin.woff2
@@ -134,7 +134,7 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 
 
--- fpm.font: Lato
+-- fastn.font: Lato
 style: normal
 weight: 400
 woff2: -/fifthtry.github.io/lato-font/static/Lato-400-normal-latin-ext.woff2
@@ -143,7 +143,7 @@ unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20C
 
 
 
--- fpm.font: Lato
+-- fastn.font: Lato
 style: normal
 weight: 400
 woff2: -/fifthtry.github.io/lato-font/static/Lato-400-normal-latin.woff2
@@ -152,7 +152,7 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 
 
--- fpm.font: Lato
+-- fastn.font: Lato
 style: normal
 weight: 700
 woff2: -/fifthtry.github.io/lato-font/static/Lato-700-normal-latin-ext.woff2
@@ -161,7 +161,7 @@ unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20C
 
 
 
--- fpm.font: Lato
+-- fastn.font: Lato
 style: normal
 weight: 700
 woff2: -/fifthtry.github.io/lato-font/static/Lato-700-normal-latin.woff2
@@ -170,7 +170,7 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 
 
 
--- fpm.font: Lato
+-- fastn.font: Lato
 style: normal
 weight: 900
 woff2: -/fifthtry.github.io/lato-font/static/Lato-900-normal-latin-ext.woff2
@@ -179,7 +179,7 @@ unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20C
 
 
 
--- fpm.font: Lato
+-- fastn.font: Lato
 style: normal
 weight: 900
 woff2: -/fifthtry.github.io/lato-font/static/Lato-900-normal-latin.woff2
