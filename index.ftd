@@ -37,13 +37,13 @@ padding-horizontal.px if {ftd.device == "mobile"}: 20
 background.solid: $inherited.colors.background.base
 
 
--- pd.package: Lato - fastn font
+-- pd.package: Lato - font
 name: fifthtry.github.io/lato-font
 
 This component consist of Google lato font with all it's styles from Thin-100 to Bold-700 Italic.
 
 
--- pd.component: Lato - fastn font
+-- pd.component: Lato - font
 name: https://github.com/FifthTry/lato-font
 
 This component consist of Google Lato font with all it's styles from Thin-100 to Bold-700 Italic.
