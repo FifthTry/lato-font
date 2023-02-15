@@ -1,7 +1,7 @@
 -- import: fifthtry.github.io/package-doc/doc as pd
 -- import: fifthtry.github.io/lato-font/assets as lato-assets
 -- import: fifthtry.github.io/package-doc/typography as tf
--- import: fpm
+-- import: fastn
 
 
 
@@ -37,13 +37,13 @@ padding-horizontal.px if {ftd.device == "mobile"}: 20
 background.solid: $inherited.colors.background.base
 
 
--- pd.package: Lato - fpm font
+-- pd.package: Lato - fastn font
 name: fifthtry.github.io/lato-font
 
 This component consist of Google lato font with all it's styles from Thin-100 to Bold-700 Italic.
 
 
--- pd.component: Lato - fpm font
+-- pd.component: Lato - fastn font
 name: https://github.com/FifthTry/lato-font
 
 This component consist of Google Lato font with all it's styles from Thin-100 to Bold-700 Italic.
@@ -52,18 +52,18 @@ This component consist of Google Lato font with all it's styles from Thin-100 to
 
 -- pd.hidden-code: How to use
 
-include fifthtry.github.io/lato-font package into FPM.ftd file
+include fifthtry.github.io/lato-font package into fastn.ftd file
 
-\-- fpm.dependency: fifthtry.github.io/lato-font/assets as lato
+\-- fastn.dependency: fifthtry.github.io/lato-font/assets as lato
 
-\-- fpm.auto-import: lato
+\-- fastn.auto-import: lato
 
 Inside your .ftd file to change for any specific token use:
 
-\-- fpm.type.headline-small.font: $lato.fonts.Lato
+\-- fastn.type.headline-small.font: $lato.fonts.Lato
 
 \-- ftd.text:
-role: $fpm.type.headline-small
+role: $fastn.type.headline-small
 
 
 -- tf.h2: `lato-font` hairline 18px:

@@ -1,6 +1,6 @@
-# Lato : FPM Font Package
+# Lato : fastn Font Package
 
-This repository contains a [fpm font package](https://fpm.dev/featured/fonts/) containing [Google Font: 
+This repository contains a [fastn font package](https://fastn.dev/featured/fonts/) containing [Google Font: 
 Lato](https://fonts.google.com/specimen/Lato/about).
 
 Lato is a sans serif typeface family started in the summer of 2010 by 
@@ -10,43 +10,43 @@ foundry tyPoland, with support from Google.
 
 Designers: Łukasz Dziedzic, Principal design
 
-## How To Use This Font In Your FPM Package:
+## How To Use This Font In Your fastn Package:
 
 [Read the docs and demo](https://fifthtry.github.io/lato-font).
 
 TLRD:
 
-Include fifthtry.github.io/lato-font package into `FPM.ftd` file:
+Include fifthtry.github.io/lato-font package into `fastn.ftd` file:
 
 ```ftd
-;-- fpm.dependency: fifthtry.github.io/lato-font
+;-- fastn.dependency: fifthtry.github.io/lato-font
 ```
 
-Inside your `FPM/config.ftd` use the font:
+Inside your `fastn/config.ftd` use the font:
 
 ```ftd
 ;-- import: fifthtry.github.io/lato-font/assets as lato
 
-;-- fpm.type.headline-small: $lato.fonts.Lato
+;-- fastn.type.headline-small: $lato.fonts.Lato
 ```
 
 Now if in any file you do:
 
 ```ftd
 ;-- ftd.text:
-role: $fpm.type.headline-small
+role: $fastn.type.headline-small
 ```
 
 You will see the `lato` font.
 
 ## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://fpm.dev/) or jump into our [FifthTry Discord 
+Feel free to check [our documentation](https://fastn.dev/) or jump into our [FifthTry Discord 
 server](https://discord.gg/bucrdvptYd).
 
 ## License
 
-Since Lato Font is under [Open Font Licence](https://fonts.google.com/specimen/Lato/about), this FPM wrapper is also
+Since Lato Font is under [Open Font Licence](https://fonts.google.com/specimen/Lato/about), this fastn wrapper is also
 under [Open Font Licence](LICENSE).
 
 
